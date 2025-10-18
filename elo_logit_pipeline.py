@@ -5,19 +5,19 @@ from sklearn.metrics import log_loss, accuracy_score
 API = "https://api.football-data.org/v4"
 TOKEN = os.getenv("FOOTBALL_DATA_TOKEN")
 HEAD = {"X-Auth-Token": TOKEN}
-TOP5 = ["PL", "PD", "SA", "BL1", "FL1"]  # EPL, LaLiga, Serie A, Bundesliga, Ligue 1
-CURRENT = 2024  # change if needed
+TOP5 = ["PL", "PD", "SA", "BL1", "FL1"]    # EPL, LaLiga, Serie A, Bundesliga, Ligue 1
+CURRENT = 2024                              # free plan: use the current season only
 
 def fetch_matches(comp, season=CURRENT):
     r = requests.get(f"{API}/competitions/{comp}/matches",
                      params={"season": season}, headers=HEAD, timeout=30)
     if r.status_code == 403:
-        print(f"[WARN] 403 {comp} {season} (plan restriction) -> skipping")
+        print(f"[WARN] 403 for {comp} {season} -> plan restriction, skipping")
         return pd.DataFrame()
     r.raise_for_status()
     rows = []
     for m in r.json().get("matches", []):
-        if m["status"] not in ("FINISHED", "TIMED", "SCHEDULED"): continue
+        if m["status"] not in ("FINISHED","TIMED","SCHEDULED"): continue
         rows.append({
             "comp": comp, "season": season, "utcDate": m["utcDate"],
             "home": m["homeTeam"]["shortName"], "away": m["awayTeam"]["shortName"],
@@ -33,16 +33,16 @@ def fetch_matches(comp, season=CURRENT):
 
 def result(hg, ag):
     if pd.isna(hg) or pd.isna(ag): return None
-    return 0 if hg > ag else (1 if hg == ag else 2)
+    return 0 if hg>ag else (1 if hg==ag else 2)
 
 def update_elo(eh, ea, res, k=20, HFA=60):
-    Eh = 1/(1 + 10**(((ea) - (eh + HFA))/400))
+    Eh = 1/(1 + 10**(((ea)-(eh+HFA))/400))
     Sh, Sa = (1,0) if res==0 else ((0.5,0.5) if res==1 else (0,1))
     return eh + k*(Sh - Eh), ea + k*(Sa - (1 - Eh))
 
-def build_dataset(all_matches):
+def build_dataset(matches):
     elo, feats = {}, []
-    for _, r in all_matches.iterrows():
+    for _, r in matches.iterrows():
         eh, ea = elo.get(r.homeId,1500.0), elo.get(r.awayId,1500.0)
         feats.append({
             "date": r.date, "comp": r.comp, "season": r.season,
@@ -59,6 +59,7 @@ def build_dataset(all_matches):
 
 def train_logit(X):
     train = X[X.y.notna()]
+    if len(train) < 100: raise SystemExit("Too few finished matches to train.")
     model = LogisticRegression(multi_class="multinomial", max_iter=1000)
     model.fit(train[["elo_diff"]], train["y"].astype(int))
     split = int(len(train)*0.8)
@@ -82,9 +83,9 @@ def main():
     for comp in TOP5:
         df = fetch_matches(comp, CURRENT)
         if not df.empty: frames.append(df)
-    if not frames: raise SystemExit("No data pulled (possibly plan-limited).")
-    all_matches = pd.concat(frames).sort_values("date").reset_index(drop=True)
-    X = build_dataset(all_matches)
+    if not frames: raise SystemExit("No data pulled (likely plan-limited).")
+    allm = pd.concat(frames).sort_values("date").reset_index(drop=True)
+    X = build_dataset(allm)
     model, metrics = train_logit(X)
     print("Metrics:", metrics)
     preds = predict(model, X)

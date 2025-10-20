@@ -1,0 +1,39 @@
+Date,Comp,venue,opponent,goals_for,goals_against,result
+2023-08-13,Premier League,Home,Liverpool,1,1,D
+2023-08-20,Premier League,Away,West Ham,1,3,L
+2023-08-25,Premier League,Home,Luton Town,3,0,W
+2023-09-02,Premier League,Home,Nott'ham Forest,0,1,L
+2023-09-17,Premier League,Away,Bournemouth,0,0,D
+2023-09-24,Premier League,Home,Aston Villa,0,1,L
+2023-10-02,Premier League,Away,Fulham,2,0,W
+2023-10-07,Premier League,Away,Burnley,4,1,W
+2023-10-21,Premier League,Home,Arsenal,2,2,D
+2023-10-28,Premier League,Home,Brentford,0,2,L
+2023-11-06,Premier League,Away,Tottenham,4,1,W
+2023-11-12,Premier League,Home,Manchester City,4,4,D
+2023-11-25,Premier League,Away,Newcastle Utd,1,4,L
+2023-12-03,Premier League,Home,Brighton,3,2,W
+2023-12-06,Premier League,Away,Manchester Utd,1,2,L
+2023-12-10,Premier League,Away,Everton,0,2,L
+2023-12-16,Premier League,Home,Sheffield Utd,2,0,W
+2023-12-24,Premier League,Away,Wolves,1,2,L
+2023-12-27,Premier League,Home,Crystal Palace,2,1,W
+2023-12-30,Premier League,Away,Luton Town,3,2,W
+2024-01-13,Premier League,Home,Fulham,1,0,W
+2024-01-31,Premier League,Away,Liverpool,1,4,L
+2024-02-04,Premier League,Home,Wolves,2,4,L
+2024-02-12,Premier League,Away,Crystal Palace,3,1,W
+2024-02-17,Premier League,Away,Manchester City,1,1,D
+2024-03-02,Premier League,Away,Brentford,2,2,D
+2024-03-11,Premier League,Home,Newcastle Utd,3,2,W
+2024-03-30,Premier League,Home,Burnley,2,2,D
+2024-04-04,Premier League,Home,Manchester Utd,4,3,W
+2024-04-07,Premier League,Away,Sheffield Utd,2,2,D
+2024-04-15,Premier League,Home,Everton,6,0,W
+2024-04-23,Premier League,Away,Arsenal,0,5,L
+2024-04-27,Premier League,Away,Aston Villa,2,2,D
+2024-05-02,Premier League,Home,Tottenham,2,0,W
+2024-05-05,Premier League,Home,West Ham,5,0,W
+2024-05-11,Premier League,Away,Nott'ham Forest,3,2,W
+2024-05-15,Premier League,Away,Brighton,2,1,W
+2024-05-19,Premier League,Home,Bournemouth,2,1,W

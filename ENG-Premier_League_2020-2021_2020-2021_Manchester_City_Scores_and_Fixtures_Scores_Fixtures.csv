@@ -1,0 +1,39 @@
+Date,Comp,venue,opponent,goals_for,goals_against,result
+2020-09-21,Premier League,Away,Wolves,3,1,W
+2020-09-27,Premier League,Home,Leicester City,2,5,L
+2020-10-03,Premier League,Away,Leeds United,1,1,D
+2020-10-17,Premier League,Home,Arsenal,1,0,W
+2020-10-24,Premier League,Away,West Ham,1,1,D
+2020-10-31,Premier League,Away,Sheffield Utd,1,0,W
+2020-11-08,Premier League,Home,Liverpool,1,1,D
+2020-11-21,Premier League,Away,Tottenham,0,2,L
+2020-11-28,Premier League,Home,Burnley,5,0,W
+2020-12-05,Premier League,Home,Fulham,2,0,W
+2020-12-12,Premier League,Away,Manchester Utd,0,0,D
+2020-12-15,Premier League,Home,West Brom,1,1,D
+2020-12-19,Premier League,Away,Southampton,1,0,W
+2020-12-26,Premier League,Home,Newcastle Utd,2,0,W
+2021-01-03,Premier League,Away,Chelsea,3,1,W
+2021-01-13,Premier League,Home,Brighton,1,0,W
+2021-01-17,Premier League,Home,Crystal Palace,4,0,W
+2021-01-20,Premier League,Home,Aston Villa,2,0,W
+2021-01-26,Premier League,Away,West Brom,5,0,W
+2021-01-30,Premier League,Home,Sheffield Utd,1,0,W
+2021-02-03,Premier League,Away,Burnley,2,0,W
+2021-02-07,Premier League,Away,Liverpool,4,1,W
+2021-02-13,Premier League,Home,Tottenham,3,0,W
+2021-02-17,Premier League,Away,Everton,3,1,W
+2021-02-21,Premier League,Away,Arsenal,1,0,W
+2021-02-27,Premier League,Home,West Ham,2,1,W
+2021-03-02,Premier League,Home,Wolves,4,1,W
+2021-03-07,Premier League,Home,Manchester Utd,0,2,L
+2021-03-10,Premier League,Home,Southampton,5,2,W
+2021-03-13,Premier League,Away,Fulham,3,0,W
+2021-04-03,Premier League,Away,Leicester City,2,0,W
+2021-04-10,Premier League,Home,Leeds United,1,2,L
+2021-04-21,Premier League,Away,Aston Villa,2,1,W
+2021-05-01,Premier League,Away,Crystal Palace,2,0,W
+2021-05-08,Premier League,Home,Chelsea,1,2,L
+2021-05-14,Premier League,Away,Newcastle Utd,4,3,W
+2021-05-18,Premier League,Away,Brighton,2,3,L
+2021-05-23,Premier League,Home,Everton,5,0,W

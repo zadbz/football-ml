@@ -1,0 +1,39 @@
+Date,Comp,venue,opponent,goals_for,goals_against,result
+2022-08-06,Premier League,Home,Liverpool,2,2,D
+2022-08-13,Premier League,Away,Wolves,0,0,D
+2022-08-20,Premier League,Home,Brentford,3,2,W
+2022-08-27,Premier League,Away,Arsenal,1,2,L
+2022-08-30,Premier League,Home,Brighton,2,1,W
+2022-09-03,Premier League,Away,Tottenham,1,2,L
+2022-09-16,Premier League,Away,Nott'ham Forest,3,2,W
+2022-10-01,Premier League,Home,Newcastle Utd,1,4,L
+2022-10-09,Premier League,Away,West Ham,1,3,L
+2022-10-15,Premier League,Home,Bournemouth,2,2,D
+2022-10-20,Premier League,Home,Aston Villa,3,0,W
+2022-10-23,Premier League,Away,Leeds United,3,2,W
+2022-10-29,Premier League,Home,Everton,0,0,D
+2022-11-05,Premier League,Away,Manchester City,1,2,L
+2022-11-13,Premier League,Home,Manchester Utd,1,2,L
+2022-12-26,Premier League,Away,Crystal Palace,3,0,W
+2022-12-31,Premier League,Home,Southampton,2,1,W
+2023-01-03,Premier League,Away,Leicester City,1,0,W
+2023-01-12,Premier League,Home,Chelsea,2,1,W
+2023-01-15,Premier League,Away,Newcastle Utd,0,1,L
+2023-01-23,Premier League,Home,Tottenham,0,1,L
+2023-02-03,Premier League,Away,Chelsea,0,0,D
+2023-02-11,Premier League,Home,Nott'ham Forest,2,0,W
+2023-02-18,Premier League,Away,Brighton,1,0,W
+2023-02-24,Premier League,Home,Wolves,1,1,D
+2023-03-06,Premier League,Away,Brentford,2,3,L
+2023-03-12,Premier League,Home,Arsenal,0,3,L
+2023-04-01,Premier League,Away,Bournemouth,1,2,L
+2023-04-08,Premier League,Home,West Ham,0,1,L
+2023-04-15,Premier League,Away,Everton,3,1,W
+2023-04-22,Premier League,Home,Leeds United,2,1,W
+2023-04-25,Premier League,Away,Aston Villa,0,1,L
+2023-04-30,Premier League,Home,Manchester City,1,2,L
+2023-05-03,Premier League,Away,Liverpool,0,1,L
+2023-05-08,Premier League,Home,Leicester City,5,3,W
+2023-05-13,Premier League,Away,Southampton,2,0,W
+2023-05-20,Premier League,Home,Crystal Palace,2,2,D
+2023-05-28,Premier League,Away,Manchester Utd,1,2,L

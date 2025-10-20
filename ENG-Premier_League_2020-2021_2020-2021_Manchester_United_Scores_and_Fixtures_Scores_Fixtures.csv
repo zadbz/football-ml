@@ -1,0 +1,39 @@
+Date,Comp,venue,opponent,goals_for,goals_against,result
+2020-09-19,Premier League,Home,Crystal Palace,1,3,L
+2020-09-26,Premier League,Away,Brighton,3,2,W
+2020-10-04,Premier League,Home,Tottenham,1,6,L
+2020-10-17,Premier League,Away,Newcastle Utd,4,1,W
+2020-10-24,Premier League,Home,Chelsea,0,0,D
+2020-11-01,Premier League,Home,Arsenal,0,1,L
+2020-11-07,Premier League,Away,Everton,3,1,W
+2020-11-21,Premier League,Home,West Brom,1,0,W
+2020-11-29,Premier League,Away,Southampton,3,2,W
+2020-12-05,Premier League,Away,West Ham,3,1,W
+2020-12-12,Premier League,Home,Manchester City,0,0,D
+2020-12-17,Premier League,Away,Sheffield Utd,3,2,W
+2020-12-20,Premier League,Home,Leeds United,6,2,W
+2020-12-26,Premier League,Away,Leicester City,2,2,D
+2020-12-29,Premier League,Home,Wolves,1,0,W
+2021-01-01,Premier League,Home,Aston Villa,2,1,W
+2021-01-12,Premier League,Away,Burnley,1,0,W
+2021-01-17,Premier League,Away,Liverpool,0,0,D
+2021-01-20,Premier League,Away,Fulham,2,1,W
+2021-01-27,Premier League,Home,Sheffield Utd,1,2,L
+2021-01-30,Premier League,Away,Arsenal,0,0,D
+2021-02-02,Premier League,Home,Southampton,9,0,W
+2021-02-06,Premier League,Home,Everton,3,3,D
+2021-02-14,Premier League,Away,West Brom,1,1,D
+2021-02-21,Premier League,Home,Newcastle Utd,3,1,W
+2021-02-28,Premier League,Away,Chelsea,0,0,D
+2021-03-03,Premier League,Away,Crystal Palace,0,0,D
+2021-03-07,Premier League,Away,Manchester City,2,0,W
+2021-03-14,Premier League,Home,West Ham,1,0,W
+2021-04-04,Premier League,Home,Brighton,2,1,W
+2021-04-11,Premier League,Away,Tottenham,3,1,W
+2021-04-18,Premier League,Home,Burnley,3,1,W
+2021-04-25,Premier League,Away,Leeds United,0,0,D
+2021-05-09,Premier League,Away,Aston Villa,3,1,W
+2021-05-11,Premier League,Home,Leicester City,1,2,L
+2021-05-13,Premier League,Home,Liverpool,2,4,L
+2021-05-18,Premier League,Home,Fulham,1,1,D
+2021-05-23,Premier League,Away,Wolves,2,1,W

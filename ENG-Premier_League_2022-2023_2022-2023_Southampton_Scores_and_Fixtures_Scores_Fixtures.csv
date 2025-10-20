@@ -1,0 +1,39 @@
+Date,Comp,venue,opponent,goals_for,goals_against,result
+2022-08-06,Premier League,Away,Tottenham,1,4,L
+2022-08-13,Premier League,Home,Leeds United,2,2,D
+2022-08-20,Premier League,Away,Leicester City,2,1,W
+2022-08-27,Premier League,Home,Manchester Utd,0,1,L
+2022-08-30,Premier League,Home,Chelsea,2,1,W
+2022-09-03,Premier League,Away,Wolves,0,1,L
+2022-09-16,Premier League,Away,Aston Villa,0,1,L
+2022-10-01,Premier League,Home,Everton,1,2,L
+2022-10-08,Premier League,Away,Manchester City,0,4,L
+2022-10-16,Premier League,Home,West Ham,1,1,D
+2022-10-19,Premier League,Away,Bournemouth,1,0,W
+2022-10-23,Premier League,Home,Arsenal,1,1,D
+2022-10-29,Premier League,Away,Crystal Palace,0,1,L
+2022-11-06,Premier League,Home,Newcastle Utd,1,4,L
+2022-11-12,Premier League,Away,Liverpool,1,3,L
+2022-12-26,Premier League,Home,Brighton,1,3,L
+2022-12-31,Premier League,Away,Fulham,1,2,L
+2023-01-04,Premier League,Home,Nott'ham Forest,0,1,L
+2023-01-14,Premier League,Away,Everton,2,1,W
+2023-01-21,Premier League,Home,Aston Villa,0,1,L
+2023-02-04,Premier League,Away,Brentford,0,3,L
+2023-02-11,Premier League,Home,Wolves,1,2,L
+2023-02-18,Premier League,Away,Chelsea,1,0,W
+2023-02-25,Premier League,Away,Leeds United,0,1,L
+2023-03-04,Premier League,Home,Leicester City,1,0,W
+2023-03-12,Premier League,Away,Manchester Utd,0,0,D
+2023-03-15,Premier League,Home,Brentford,0,2,L
+2023-03-18,Premier League,Home,Tottenham,3,3,D
+2023-04-02,Premier League,Away,West Ham,0,1,L
+2023-04-08,Premier League,Home,Manchester City,1,4,L
+2023-04-15,Premier League,Home,Crystal Palace,0,2,L
+2023-04-21,Premier League,Away,Arsenal,3,3,D
+2023-04-27,Premier League,Home,Bournemouth,0,1,L
+2023-04-30,Premier League,Away,Newcastle Utd,1,3,L
+2023-05-08,Premier League,Away,Nott'ham Forest,3,4,L
+2023-05-13,Premier League,Home,Fulham,0,2,L
+2023-05-21,Premier League,Away,Brighton,1,3,L
+2023-05-28,Premier League,Home,Liverpool,4,4,D
